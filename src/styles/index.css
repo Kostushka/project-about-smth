@@ -1,0 +1,18 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-background: hsl(44, 75%, 66%);
+
+    --border-radius-sm: 3px;
+    --spacing-medium: 15px;
+
+    --font-family-main: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-background);
+    font-family: var(--font-family-main);
+}
