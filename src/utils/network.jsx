@@ -2,11 +2,13 @@ import axios from 'axios';
 
 const instance = axios.create({
     baseURL: 'https://rickandmortyapi.com/api/',
+    // baseURL: 'https://swapi.dev/api/',
 });
 
 export const getAPIRecourse = async () => {
     try {
         const res = await instance.get('character');
+        // const res = await instance.get('people');
         return await res.data;
     } catch (error) {
         console.error('Could not get.', error.message);

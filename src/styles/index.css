@@ -2,11 +2,13 @@
     --color-white: #fff;
     --color-black: #000;
     --color-background: hsl(44, 75%, 66%);
+    --color-brown: rgb(123, 23, 23);
 
     --border-radius-sm: 3px;
     --spacing-medium: 15px;
 
     --font-family-main: sans-serif;
+    --font-size-header: 26px;
 }
 
 body {
