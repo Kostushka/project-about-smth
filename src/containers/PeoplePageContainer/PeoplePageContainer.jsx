@@ -35,7 +35,7 @@ const PeoplePageContainer = ({ setErrorApi }) => {
 
     return (
         <>
-            <h2>Navigation</h2>
+            <h2 className='header__text'>Navigation</h2>
             {people && <PeoplePage people={people} />}
         </>
     );

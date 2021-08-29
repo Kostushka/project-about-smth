@@ -2,13 +2,32 @@
     --color-white: #fff;
     --color-black: #000;
     --color-background: hsl(44, 75%, 66%);
-    --color-brown: rgb(123, 23, 23);
+    --color-orange: rgb(197, 80, 13);
+    --color-brown: rgb(77, 31, 5);
+    --color-active: rgb(245, 238, 230);
 
     --border-radius-sm: 3px;
+
     --spacing-medium: 15px;
+    --spacing-large: 30px;
 
     --font-family-main: sans-serif;
+
     --font-size-header: 26px;
+    --font-size: 16px;
+    --font-size-subheader: 18px;
+
+    --width-max: 1200px;
+
+    --font-bold: 600;
+
+    --text-shadow-brown: 0 0 2px var(--color-orange),
+        0 0 40px var(--color-brown);
+
+    --transition: 0.4s;
+
+    --theme-default-header: rgb(249 221 118 / 93%);
+    --theme-default-bgimg: url(@static/bg.jpg);
 }
 
 body {
@@ -17,4 +36,22 @@ body {
     box-sizing: border-box;
     background-color: var(--color-background);
     font-family: var(--font-family-main);
+    font-size: var(--font-size);
+    background-image: var(--theme-default-bgimg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+.img {
+    display: block;
+}
+
+.header__text {
+    line-height: 1.7;
+    font-size: var(--font-size-header);
+    text-shadow: 0 0 2px var(--color-black);
+    color: var(--theme-default-header);
+    transition: color var(--transition);
 }
