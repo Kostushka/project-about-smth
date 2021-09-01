@@ -5,9 +5,13 @@
     --color-orange: rgb(197, 80, 13);
     --color-brown: rgb(77, 31, 5);
     --color-active: rgb(245, 238, 230);
+    --color-violet: rgb(185, 115, 185);
 
     --border-radius-sm: 3px;
+    --border-radius-medium: 5px;
 
+    --spacing-ultrasmall: 5px;
+    --spacing-small: 10px;
     --spacing-medium: 15px;
     --spacing-large: 30px;
 
@@ -16,6 +20,8 @@
     --font-size-header: 26px;
     --font-size: 16px;
     --font-size-subheader: 18px;
+
+    --margin-list: 7px;
 
     --width-max: 1200px;
 

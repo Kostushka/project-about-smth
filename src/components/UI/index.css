@@ -1,0 +1,13 @@
+:root {
+    --color-light: rgb(209, 105, 19);
+    --color-dark: rgb(245, 235, 229);
+    --color-grey: rgb(134, 132, 130);
+
+    --font-size-sm: 14px;
+    --font-family-main: sans-serif;
+    --font-bold: 600;
+
+    --transition: 0.4s;
+
+    --border-radius: 3px;
+}

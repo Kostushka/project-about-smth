@@ -1,0 +1,54 @@
+:root {
+    --color-light: rgb(209, 105, 19);
+    --color-dark: rgb(245, 235, 229);
+    --color-grey: rgb(134, 132, 130);
+
+    --font-size-sm: 14px;
+    --font-family-main: sans-serif;
+    --font-bold: 600;
+
+    --transition: 0.4s;
+
+    --border-radius: 3px;
+}
+
+.UIButton_button__1s8yt {
+    min-width: 100px;
+    padding: 10px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-family-main);
+    font-weight: var(--font-bold);
+    border-radius: var(--border-radius);
+    background: none;
+    outline: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.UIButton_button__1s8yt:disabled,
+.UIButton_button__1s8yt:disabled:hover {
+    background-color: transparent;
+    color: var(--color-grey);
+    border-color: var(--color-grey);
+    cursor: auto;
+}
+
+.UIButton_light__3s-os {
+    border: 2px solid var(--color-dark);
+    color: var(--color-dark);
+}
+.UIButton_light__3s-os:hover {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+.UIButton_dark__3ABXj {
+    border: 2px solid var(--color-light);
+    color: var(--color-light);
+}
+.UIButton_dark__3ABXj:hover {
+    background: var(--color-light);
+    color: var(--color-dark);
+}
+
+
+/*# sourceMappingURL=main.7c64fc4c.chunk.css.map*/
