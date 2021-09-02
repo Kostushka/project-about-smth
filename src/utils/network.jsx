@@ -27,3 +27,12 @@ export const getAPIRecourse = async (url) => {
 // (async () => {
 //     const body = await getAPIRecourse();
 // })();
+
+export const makeConcurrentRequest = async (url) => {
+    const res = await Promise.all(
+        url.map((res) => {
+            return axios.get(res).then((res) => res.data);
+        })
+    );
+    return res;
+};
