@@ -8,20 +8,30 @@ import { getAPIRecourse } from '@utils/network';
 import UILoading from '@ui/UILoading';
 import styles from './PersonPage.module.css';
 import PersonLinkBack from '@components/PersonPage/PersonLinkBack';
+import { useSelector } from 'react-redux';
 
 const PersonFilms = React.lazy(() =>
     import('@components/PersonPage/PersonFilms')
 );
 
 const PersonPage = ({ match, setErrorApi }) => {
+    const [personId, setPersonId] = useState(null);
     const [personInfo, setPersonInfo] = useState(null);
     const [personName, setPersonName] = useState(null);
     const [personPhoto, setPersonPhoto] = useState(null);
     const [personFilms, setPersonFilms] = useState(null);
+    const [personFavorite, setPersonFavorite] = useState(false);
+
+    const stateDate = useSelector((state) => state.favoriteReducer);
+
     useEffect(() => {
         (async () => {
             const id = match.params.id;
             const res = await getAPIRecourse(`${API_PERSON}/${id}`);
+
+            setPersonFavorite(!!stateDate[id]);
+
+            setPersonId(id);
             // console.log(res);
             if (res) {
                 setPersonInfo([
@@ -53,8 +63,11 @@ const PersonPage = ({ match, setErrorApi }) => {
                 <span className={styles.person__name}>{personName}</span>
                 <div className={styles.container}>
                     <PersonPhoto
-                        personPhoto={personPhoto}
+                        personId={personId}
                         personName={personName}
+                        personPhoto={personPhoto}
+                        personFavorite={personFavorite}
+                        setPersonFavorite={setPersonFavorite}
                     />
                     {personInfo && <PersonInfo personInfo={personInfo} />}
                     {personFilms && (
