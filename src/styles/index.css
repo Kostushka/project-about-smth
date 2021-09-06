@@ -40,8 +40,30 @@
 
     --transition: 0.4s;
 
-    --theme-default-header: rgb(249 221 118 / 93%);
-    --theme-default-bgimg: url(@static/bg.jpg);
+    /* THEME */
+    --theme-light-header: rgb(252, 246, 228);
+    --theme-dark-header: rgb(172, 78, 209);
+    --theme-neitral-header: rgb(249 221 118 / 93%);
+    --theme-default-header: var(--theme-neitral-header);
+
+    --theme-light-bgimg: linear-gradient(
+        to right top,
+        #c99b17,
+        #ce9011,
+        #d38511,
+        #d77a14,
+        #da6e1a
+    );
+    --theme-dark-bgimg: linear-gradient(
+        to right top,
+        #6c3174,
+        #2e437e,
+        #004a6f,
+        #004954,
+        #24443e
+    );
+    --theme-neitral-bgimg: url(@static/bg.jpg);
+    --theme-default-bgimg: var(--theme-neitral-bgimg);
 }
 
 body {

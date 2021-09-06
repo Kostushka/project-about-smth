@@ -14,6 +14,7 @@ module.exports = function override(config, env) {
         '@static': 'src/static',
         '@hook': 'src/hook',
         '@store': 'src/store',
+        '@context': 'src/context',
     })(config);
     return config;
 };
