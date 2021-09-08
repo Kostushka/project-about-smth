@@ -2,7 +2,9 @@
 // export const BASEURL = 'https://rickandmortyapi.com/api/';
 export const PEOPLE_DATA = 'character';
 export const PARAM_PAGE = '/?page=';
+export const PARAM_SEARCH = '/?name=';
 export const API_PEOPLE = PEOPLE_DATA + PARAM_PAGE;
+export const API_SEARCH = PEOPLE_DATA + PARAM_SEARCH;
 export const API_PERSON = PEOPLE_DATA;
 // // // common;
 // // export const BASEURL = 'https://swapi.dev/api/';

@@ -2,7 +2,8 @@ import HomePageContainer from '@containers/HomePageContainer';
 import PeoplePageContainer from '@containers/PeoplePageContainer';
 import NotFoundPage from '@containers/NotFoundPage';
 import PersonPage from '@containers/PersonPage';
-import FavoritesPageContainer from '@containers/FavoritesPage/FavoritesPageContainer';
+import FavoritesPageContainer from '@containers/FavoritesPage';
+import SearchPageContainer from '@containers/SearchPage';
 
 const routesConfig = [
     {
@@ -24,6 +25,11 @@ const routesConfig = [
         path: '/favorites',
         exact: true,
         component: FavoritesPageContainer,
+    },
+    {
+        path: '/search',
+        exact: true,
+        component: SearchPageContainer,
     },
     {
         path: '/not-found',
