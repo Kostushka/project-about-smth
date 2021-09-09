@@ -51,6 +51,9 @@ const Header = () => {
                     <NavLink to='/search'>Search</NavLink>
                 </li>
                 <li>
+                    <NavLink to='/fail'>Fail</NavLink>
+                </li>
+                <li>
                     <NavLink to='/not-found' exact>
                         Not Found
                     </NavLink>

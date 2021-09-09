@@ -97,3 +97,30 @@ body {
     color: var(--theme-default-header);
     transition: color var(--transition);
 }
+
+/*******************************************************************
+SCROLL
+/*******************************************************************/
+
+* {
+    scrollbar-color: rgb(161, 20, 243) rgba(151, 115, 165, 0.7);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(161, 20, 243);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(151, 115, 165, 0.7);
+}
+
+::-webkit-scrollbar-corner {
+    background-color: rgba(151, 115, 165, 0.7);
+}
