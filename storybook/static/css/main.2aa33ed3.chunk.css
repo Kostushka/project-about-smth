@@ -1,0 +1,120 @@
+:root {
+    --color-light: rgb(209, 105, 19);
+    --color-dark: rgb(245, 235, 229);
+    --color-grey: rgb(134, 132, 130);
+    --color-blue: rgb(63, 129, 228);
+
+    --font-size-sm: 14px;
+    --font-size-medium: 16px;
+    --font-family-main: sans-serif;
+    --font-bold: 600;
+
+    --transition: 0.4s;
+
+    --border-radius: 3px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+.UIButton_button__1s8yt {
+    min-width: 100px;
+    padding: 10px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-family-main);
+    font-weight: var(--font-bold);
+    border-radius: var(--border-radius);
+    background: none;
+    outline: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.UIButton_button__1s8yt:disabled,
+.UIButton_button__1s8yt:disabled:hover {
+    background-color: transparent;
+    color: var(--color-grey);
+    border-color: var(--color-grey);
+    cursor: auto;
+}
+
+.UIButton_light__3s-os {
+    border: 2px solid var(--color-dark);
+    color: var(--color-dark);
+}
+.UIButton_light__3s-os:hover {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+.UIButton_dark__3ABXj {
+    border: 2px solid var(--color-light);
+    color: var(--color-light);
+}
+.UIButton_dark__3ABXj:hover {
+    background: var(--color-light);
+    color: var(--color-dark);
+}
+
+.UIInput_wrapper__input__m6NdF {
+    --border-radius: 3px;
+    --border: 3px;
+    --close-width: 35px;
+}
+.UIInput_wrapper__input__m6NdF {
+    position: relative;
+    display: inline-flex;
+}
+
+.UIInput_input__2x9uB {
+    min-width: 300px;
+    padding: 10px 15px;
+    padding-right: calc(var(--close-width) + 15px);
+
+    border: var(--border) solid;
+    border-color: var(--color-grey);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-main);
+    outline: none;
+}
+
+.UIInput_input__2x9uB:focus {
+    border-color: var(--color-blue);
+}
+
+.UIInput_close__3Rewg {
+    position: absolute;
+    top: var(--border);
+    right: var(--border);
+    width: var(--close-width);
+    height: calc(100% - var(--border) * 2);
+    padding: 10px;
+    object-fit: contain;
+    object-position: center center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.UIInput_close__disabled__1gSA1 {
+    opacity: 0.4;
+}
+
+.UILoading_loader__4bo4M {
+    width: 120px;
+    height: 120px;
+}
+.UILoading_shadow__17QK7 {
+    -webkit-filter: drop-shadow(0 0 2px rgb(68, 67, 65));
+            filter: drop-shadow(0 0 2px rgb(68, 67, 65));
+}
+
+
+
+/*# sourceMappingURL=main.2aa33ed3.chunk.css.map*/
