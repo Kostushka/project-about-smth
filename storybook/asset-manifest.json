@@ -2,7 +2,7 @@
   "files": {
     "0.5ddea272.iframe.bundle.js": "./0.5ddea272.iframe.bundle.js",
     "main.css": "./static/css/main.2aa33ed3.chunk.css",
-    "main.js": "./main.11585c06.iframe.bundle.js",
+    "main.js": "./main.f892afca.iframe.bundle.js",
     "main.css.map": "./static/css/main.2aa33ed3.chunk.css.map",
     "runtime~main.js": "./runtime~main.ea2a5602.iframe.bundle.js",
     "vendors~main.js": "./vendors~main.a370942d.iframe.bundle.js",
@@ -16,9 +16,9 @@
     "4.9b0065e6.iframe.bundle.js.LICENSE.txt": "./4.9b0065e6.iframe.bundle.js.LICENSE.txt",
     "6.38ec8776.iframe.bundle.js.LICENSE.txt": "./6.38ec8776.iframe.bundle.js.LICENSE.txt",
     "iframe.html": "./iframe.html",
-    "static/media/PreloaderBlue.d9e96aae.svg": "./static/media/PreloaderBlue.d9e96aae.svg",
-    "static/media/PreloaderGold.7c21843b.svg": "./static/media/PreloaderGold.7c21843b.svg",
-    "static/media/PreloaderWhite.6b7134ab.svg": "./static/media/PreloaderWhite.6b7134ab.svg",
+    "static/media/PreloaderBlue.713eb1c9.svg": "./static/media/PreloaderBlue.713eb1c9.svg",
+    "static/media/PreloaderGold.054e1fa4.svg": "./static/media/PreloaderGold.054e1fa4.svg",
+    "static/media/PreloaderWhite.61d70bd0.svg": "./static/media/PreloaderWhite.61d70bd0.svg",
     "static/media/close.ff24aa8b.svg": "./static/media/close.ff24aa8b.svg",
     "static/media/error.fedeb8a3.mp4": "./static/media/error.fedeb8a3.mp4",
     "vendors~main.a370942d.iframe.bundle.js.LICENSE.txt": "./vendors~main.a370942d.iframe.bundle.js.LICENSE.txt"
@@ -27,6 +27,6 @@
     "runtime~main.ea2a5602.iframe.bundle.js",
     "vendors~main.a370942d.iframe.bundle.js",
     "static/css/main.2aa33ed3.chunk.css",
-    "main.11585c06.iframe.bundle.js"
+    "main.f892afca.iframe.bundle.js"
   ]
 }
